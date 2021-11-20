@@ -1,0 +1,26 @@
+.blog_parent{
+    background-image: url(../../Images/Backgrounds/Purple_Sky.jpg);
+    background-size: cover;
+    /* background-position: center; */
+    background-attachment: fixed;
+    /* display: flex; */
+    position: absolute;
+    min-width: 100%;
+    min-height: 100%;
+    padding-left: 10%;
+    padding-right: 10%;
+    text-align: center;
+}
+
+.blog_h1{
+    font-size: 4em;
+    color: white;
+    background-color: rgba(0,0,0,.8);
+    padding: 1%;
+}
+
+.blog_list{
+    font-size: 1.5em;
+    /* text-align: left; */
+    color: black;
+}

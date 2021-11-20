@@ -1,0 +1,33 @@
+.projects-parent{
+    background-image: url(../../Images/Mountains.jpg);
+    background-size: cover;
+    /* background-position: center; */
+    background-attachment: fixed;
+    /* display: flex; */
+    position: absolute;
+    min-width: 100%;
+    min-height: 100%;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+#video {
+    position: fixed;
+    z-index: -1;
+    width: 50%;
+    height: 50%;
+}
+
+.card-image{
+    height: 280px;
+    object-fit: cover;
+}
+
+.hoverable:hover{
+    background-color: whitesmoke;
+}
+
+.link-tag{
+    text-decoration: none;
+    color: black;
+}

@@ -1,0 +1,19 @@
+
+.nav_link{
+  text-decoration: none;
+  color: black;
+  /* padding: 2%; */
+  font-size: 1.2em;
+  padding-left:10px;
+  padding-right:10px;
+}
+
+.nav_brand{
+  text-decoration: none;
+  color: black;
+  /* padding: 2%; */
+  font-size: 1.4em;
+  padding-left:10px;
+  padding-right:10px;
+  font-weight: bold;
+}

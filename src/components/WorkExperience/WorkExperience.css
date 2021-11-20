@@ -1,0 +1,32 @@
+.we-parent{
+    background-image: url(../../Images/Hiker.jpg);
+    background-size: cover;
+    /* background-position: center; */
+    background-attachment: fixed;
+    /* display: flex; */
+    position: absolute;
+    min-width: 100%;
+    min-height: 100%;
+    padding-left: 10%;
+    padding-right: 10%;
+    text-align: center;
+}
+
+.we_card_text{
+    text-align: left;
+}
+
+.we_card{
+    height: 550px;
+}
+
+.we_card_image{
+    background-color: whitesmoke;
+}
+
+.we_h1{
+    font-size: 4em;
+    color: white;
+    background-color: rgba(0,0,0,.8);
+    padding: 1%;
+}

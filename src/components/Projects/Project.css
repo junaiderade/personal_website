@@ -1,0 +1,46 @@
+.proj_parent{
+    background-image: url(../../Images/Project_Pics/Tiny_Turtle/Ocean_Background.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    position: absolute;
+    min-width: 100%;
+    min-height: 100%;
+    padding-left: 10%;
+    padding-right: 10%;
+    text-align: center;
+}
+
+.proj_h1{
+    font-size: 4em;
+    color: white;
+    background-color: rgba(0,0,0,.8);
+    padding: 1%;
+}
+
+.proj_col{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.proj_col_2{
+    border-right: solid white 2px;
+    color: white;
+}
+
+.proj_card{
+    text-align: left;
+}
+
+.proj_carousel{
+    border: solid white 2px;
+}
+
+.proj_icons{
+    text-align: center;
+    justify-content: center;
+}
+
+.carousel_caption{
+background-color: rgba(0,0,0,.8);
+}

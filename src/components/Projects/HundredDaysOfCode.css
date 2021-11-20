@@ -1,0 +1,37 @@
+.hundred_parent{
+    background-image: url(../../Images/Twitter_Background_2.png);
+    background-repeat: repeat;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.hundred_big_font{
+text-align: center;
+background-color: rgba(0,0,0,.8);
+font-size: 4em;
+color: white;
+padding: 1%;
+}
+
+.embed_tweet{
+    min-height: 100px;
+}
+
+.hundred_col{
+  display: flex;
+  grid-auto-flow: column;
+  gap: 20px;
+  align-items: center;
+  justify-items: center;
+}
+
+#dropdown{
+  color: black;
+  display: flex; /*for some reason this is essential to it being centered*/
+  font-size: 1.25em;
+  margin: 0 auto;
+}
+
+.hundred_card{
+  text-align: left;
+}

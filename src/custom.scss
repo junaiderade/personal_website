@@ -1,0 +1,10 @@
+//this file is used to overwrite bootstrap classes
+
+
+yolo{
+    color: blue;
+    width: 500px;
+}
+
+// this needs to be at the bottom of the file
+@import "~bootstrap/scss/bootstrap.scss"
