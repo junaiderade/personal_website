@@ -3,7 +3,7 @@ import './App.css';
 import MyNavbar from './components/MyNavbar/MyNavbar';
 import Home from './components/Home/Home';
 import Projects from './components/Projects/Projects';
-import Hundred_Days_Of_Code from './components/Projects/HundredDaysOfCode';
+import HundredDaysOfCode from './components/Projects/HundredDaysOfCode';
 import WorkExperience from './components/WorkExperience/WorkExperience';
 import Project from './components/Projects/Project';
 import Contact from './components/Contact/Contact';
@@ -62,7 +62,7 @@ function App() {
           </Route>
 
           <Route exact path="/projects/100DaysOfCode">
-            <Hundred_Days_Of_Code></Hundred_Days_Of_Code>
+            <HundredDaysOfCode></HundredDaysOfCode>
           </Route>
 
           <Route exact path="/workexperience">
