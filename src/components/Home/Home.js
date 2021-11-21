@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css'
-import {Container,Row,Col,Image,Card,Button} from 'react-bootstrap';
+import {Container,Row,Col,Image,Card} from 'react-bootstrap';
 import './Home.css'
 import me from "../../Images/Me.png"
 
@@ -34,34 +34,40 @@ class Home extends Component{
                     <Col md = {12} lg = {6} className="right-col">
                         <br/>
                         <br/>
-                        <Card className="text-center home-card">
+                        <Card>
                                 <Card.Body>
-                                    <h2>About This Site</h2> 
-                                        <h5>They say "People don't believe it till they see it". So, I built this website to show people who I am and what skills I bring to the table. I want to make it easy for people to learn about me and what makes me unique. 
-                                        </h5>
-                                    <h2>How I Built This</h2>
-                                            <h5>Coded in ReactJS Framework</h5>
-                                            <h5>Uses React-Bootstrap and Font-Awesome for styling</h5>
-                                            <h5>Deployed and hosted on AWS S3</h5>
+                                    <h3 className="home_h3">About Me</h3> 
+                                    <ul className ="home_ul">
+                                            <li>I'm passionate about technology. My purpose is to build and deliver amazing products which push humanity forward.</li>
+                                            <li>I graduated from Georgia State University in 2020 with a Bachelor's in Computer Information Systems. Even though I am happy with my degree, I see education as a continuous process. I look forward to pursuing an MBA later in my career! Most recently, I got my Cloud Practitioner certification from AWS.</li>
+                                            <li>Outside of work, I like to focus on learning spoken languages, personal fitness, and gaming.</li>
+                                        </ul>
+                                    <h3 className="home_h3">How I Built This Website</h3>
+                                        <ul className ="home_ul">
+                                            <li>Coded in ReactJS Framework</li>
+                                            <li>Styled with React-Bootstrap and Font-Awesome</li>
+                                            <li>Deployed using Netflify</li>
+                                            <li>Made with heart</li>
+                                        </ul>
+                                    <h3 className="home_h3">My Career Interests</h3>
+                                        <ul className ="home_ul">
+                                            <li>Product Management</li>
+                                            <li>Software Development</li>
+                                            <li>Cloud Technology</li>
+                                        </ul>
                                 </Card.Body>
                         </Card>
                         <br/>
-                        <Card className="text-center home-card">
-                                <Card.Body>
-                                    <h2>Currently</h2>
-                                        <h5>
-                                            <i className="fas fa-mobile-alt"></i>Building a mobile game called "Tiny Turtle"
-                                        </h5>
-                                        <h5>
-                                            <i className="fas fa-running"></i>Training for the Publix Atlanta Marathon
-                                        </h5>
-                                        <h5>
-                                            <i className="fas fa-language"></i>Learning how to speak Arabic from Youtube
-                                        </h5>
-                                        <h5>
-                                            <i className="fas fa-gamepad"></i>Playing "The Last of Us" on PS4
-                                        </h5>
-                                </Card.Body>
+                        <Card>
+                            <Card.Body>
+                                <h3 className="home_h3">Currently</h3>
+                                <ul className ="home_ul">
+                                    <li><i className="fas fa-mobile-alt"></i>Building a mobile game called "Tiny Turtle"</li>
+                                    <li><i className="fas fa-running"></i>Training for the Publix Atlanta Marathon</li>
+                                    <li><i className="fas fa-language"></i>Learning how to speak Arabic from Youtube</li>
+                                    <li><i className="fas fa-gamepad"></i>Playing "The Last of Us" on PS4</li>
+                                </ul>
+                            </Card.Body>
                         </Card>
                         <br/>
                     </Col>

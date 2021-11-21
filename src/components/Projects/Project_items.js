@@ -34,15 +34,15 @@ export const project_items = [
         [
             {
                 image: tt_gameplay,
-                caption: "Addictive Gameplay"
+                caption: "Enagaging Gameplay"
             },
             {
                 image: tt_store,
-                caption: "In App Purchasing"
+                caption: "In-App Purchasing Available"
             },
             {
                 image: tt_ads,
-                caption: "Advertisements Plug-In"
+                caption: "Uses Advertisement API"
             },
             {
                 image: tt_leaderboards,
@@ -67,20 +67,24 @@ export const project_items = [
 
         link : "Link not yet available",
 
-        description: "A free running game where you play as a turtle dodging trash in multiple environments.",
+        description: "A free runner mobile game where you play as a turtle dodging trash in the ocean! I made this game as a fun way to raise awareness about protecting aquatic wildlife.",
 
         features: 
         [
-            "Addictive Gameplay",
-            "In-App Purchasing",
-            "Advertisements",
-            "Achievements",
-            "Leaderboards"
+            "Complex algorithms designed to increase difficulty as the player progresses in skill",
+            "APIs for In-App Purchasing, Advertisements, and posting to Leaderboards",
+            "Multiple playable characters which each have different special abilities",
+            "A variety of enemies ranging from plastic trash to sharks",
+            "3 different maps for the player to play on",
+            "Powerups which can be encountered including a speed boost, coin magnet, and shield",
+            "An in-game store which allows players to purchase new characters, new maps, upgrades, and more"
+
         ],
 
         technical: 
         [
-            "Coded in C#","Uses Unity Game Engine","Drawn in Procreate on iPad", "Uses Xcode for iOS build", "Uses Android Studio for Android Build"
+            "Coded in C#","Uses Unity Game Engine","Drawn in Procreate on iPad", "Uses Xcode for iOS build", "Uses Android Studio for Android Build.",
+            "Uses Unity Ads for Advertising"
         ]
 
     },
@@ -117,20 +121,17 @@ export const project_items = [
 
         link : "http://junaid-personal-projects.s3-website-us-east-1.amazonaws.com/",
 
-        description: "A free running game where you play as a turtle dodging trash in multiple environments.",
+        description: "In order to create an accurate diet plan to achieve your fitness goals, you need to properly estimate your caloric intake. There are online calculators that can help you with this but most of them dont take into account your activity level AND the time you spend in the gym, so, I decided to build one that does....and learn a bit about the Angular Framework while I'm doing it.",
 
         features: 
         [
-            "Addictive Gameplay",
-            "In-App Purchasing",
-            "Advertisements",
-            "Achievements",
-            "Leaderboards"
+            "Form component where user can fill out their details",
+            "A detailed breakdown of how a user's results are calculated",
         ],
 
         technical: 
         [
-            "Coded in JavaScript using Angular Framework","Deployed using AWS S3","Procreate", "Xcode", "Android Studio"
+            "Coded in JavaScript using Angular Framework","Deployed using AWS S3"
         ]
 
     },
@@ -167,20 +168,20 @@ export const project_items = [
 
         link : "https://desolate-everglades-56309.herokuapp.com/campgrounds",
 
-        description: "A website I created to teach myself express and mongoDB. The website's function is to allow campers to post their favorite campsites to the internet for everyone to see.",
+        description: "A website I created to teach myself ExpressJS and MongoDB. The website's function is to allow campers to post their favorite campsites to the internet for everyone to see.",
 
         features: 
         [
-            "Addictive Gameplay",
-            "In-App Purchasing",
-            "Advertisements",
-            "Achievements",
-            "Leaderboards"
+            "Users can create posts, edit posts, and delete posts",
+            "Users can interact with other posts by commenting",
+            "Application requires user to create an account"
         ],
 
         technical: 
         [
-            "Coded in JavaScript using Angular Framework","Deployed using AWS S3","Procreate", "Xcode", "Android Studio"
+            "Backend coded in ExpressJS",
+            "UI in HTML, CSS, JS",
+            "Deployed using Heroku"
         ]
 
     }

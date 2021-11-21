@@ -28,7 +28,7 @@ class Project extends Component{
 
                 <Card className="proj_card">
                                         <Card.Body>
-                                            <h2>Description</h2> 
+                                            <h3>Description</h3> 
                                                 <h5>{project_items[this.props.current].description}
                                                 </h5>
                                         </Card.Body>
@@ -96,7 +96,7 @@ class Project extends Component{
 
                     <Card className="proj_card">
                             <Card.Body>
-                                <h2>Features</h2> 
+                                <h3>Features</h3> 
                                     <ul>
                                         {
                                             project_items[this.props.current].features.map((x,idx) => {
@@ -113,7 +113,7 @@ class Project extends Component{
 
                     <Card className="proj_card">
                             <Card.Body>
-                                <h2>Technical Details</h2> 
+                                <h3>Technical Details</h3> 
                                     <ul>
                                         {
                                             project_items[this.props.current].technical.map((x,idx) => {

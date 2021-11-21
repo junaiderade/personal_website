@@ -1,13 +1,7 @@
-
 .left-col{
     align-items: center;
     text-align: center;
     color: white;
-}
-
-.right-col{
-    list-style-position: inside;
-
 }
 
 i{
@@ -16,18 +10,13 @@ i{
 
 .pic-me{
     width:70%;
-    /* display: block; */
-    /* margin-left: auto;
-    margin-right: auto; */
     border: solid white;
   }
 
 .parent{
-    background-image: url(../../Images/Canyons.jpg);
+    background-image: url(../../Images/Backgrounds/Canyons.jpg);
     background-size: cover;
-    /* background-position: center; */
     background-attachment: fixed;
-    /* display: flex; */
     position: absolute;
     min-width: 100%;
     min-height: 100%;
@@ -39,4 +28,10 @@ a{
     color: white;
 }
 
+.home_h3{
+text-align: center;
+}
 
+.home_ul{
+font-size: 1.2em;
+}
