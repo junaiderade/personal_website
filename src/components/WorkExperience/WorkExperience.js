@@ -18,9 +18,9 @@ class WorkExperience extends Component{
                 <Card className="hundred_card">
                                         <Card.Body>
                                             <h2>Purpose</h2> 
-                                                <h5>You will find some of the brands/roles I have experience working below! My career is of utmost importance to me and I always strive to bring value to any team I am on! 
+                                                <h5>Look below to see some of the brands/roles I've worked during my career! 
                                                 </h5>
-                                            <h4><i>Email me for a copy of my resume if interested!</i></h4>
+                                            <h4><b><i>Email me for a copy of my resume if interested!</i></b></h4>
                                         </Card.Body>
                                 </Card>
                 <br/>
@@ -49,7 +49,6 @@ class WorkExperience extends Component{
                 <br/>
                 <br/>
             </Container>
-
             )
         }
     }

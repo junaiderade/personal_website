@@ -48,7 +48,7 @@ class Projects extends Component{
                                     See how I shared my coding progress with the world for 100 days.
                                     </Card.Text>
                                 </Card.Body>
-                                <Card.Footer>Completed November 2020</Card.Footer>
+                                <Card.Footer>Completed November 2021</Card.Footer>
                             </Card>
                         </Link>
                     </Col>

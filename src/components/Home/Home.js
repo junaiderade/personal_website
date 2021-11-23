@@ -36,7 +36,7 @@ class Home extends Component{
                         <br/>
                         <Card>
                                 <Card.Body>
-                                    <h3 className="home_h3">About Me</h3> 
+                                    <h3 className="home_h3">Welcome! Here's a Little About Me</h3> 
                                     <ul className ="home_ul">
                                             <li>I'm passionate about technology. My purpose is to build and deliver amazing products which push humanity forward.</li>
                                             <li>I graduated from Georgia State University in 2020 with a Bachelor's in Computer Information Systems. Even though I am happy with my degree, I see education as a continuous process. I look forward to pursuing an MBA later in my career! Most recently, I got my Cloud Practitioner certification from AWS.</li>
@@ -72,6 +72,7 @@ class Home extends Component{
                         <br/>
                     </Col>
                 </Row>
+                <br/>
             </Container>            
         )
     }

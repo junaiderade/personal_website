@@ -40,6 +40,8 @@ class Blog extends Component{
                         })
                     }
                 </Row>
+                <br/>
+                <br/>
 
             </Container>
         )
