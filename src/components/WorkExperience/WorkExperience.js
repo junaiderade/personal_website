@@ -20,7 +20,7 @@ class WorkExperience extends Component{
                                             <h2>Purpose</h2> 
                                                 <h5>Look below to see some of the brands/roles I've worked during my career! 
                                                 </h5>
-                                            <h4><b><i>Email me for a copy of my resume if interested!</i></b></h4>
+                                            <h4><b><i>Email junaid98m@gmail.com for a copy of my resume if interested!</i></b></h4>
                                         </Card.Body>
                                 </Card>
                 <br/>
