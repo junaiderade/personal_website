@@ -65,7 +65,7 @@ class Home extends Component{
                                     <li><i className="fas fa-mobile-alt"></i>Building a mobile game called "Tiny Turtle"</li>
                                     <li><i className="fas fa-running"></i>Training for the Publix Atlanta Marathon</li>
                                     <li><i className="fas fa-language"></i>Learning how to speak Arabic from Youtube</li>
-                                    <li><i className="fas fa-gamepad"></i>Playing "The Last of Us" on PS4</li>
+                                    <li><i className="fas fa-book-open"></i>Reading "Leonardo Da Vinci" by Walter Issacson</li>
                                 </ul>
                             </Card.Body>
                         </Card>
