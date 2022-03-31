@@ -15,7 +15,7 @@ class MyNavbar extends Component{
             <div>
                 <Navbar fixed="top" className="navbar-style" bg="light" expand="lg">
                     <Container>
-                    <Link className = "nav_brand" to="/home">Junaid Mohamed</Link>
+                    <Link className = "nav_brand" to="/home">Junebug Developer</Link>
 
                         {/* <Navbar.Brand className ="navbar-brand-style" href="/home">Junaid Mohamed</Navbar.Brand> */}
                         <Navbar.Toggle aria-controls="basic-navbar-nav" />

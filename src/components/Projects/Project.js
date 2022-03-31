@@ -28,6 +28,12 @@ class Project extends Component{
 
                 <Card className="proj_card">
                                         <Card.Body>
+                                            {project_items[this.props.current].name == "N/A" //DECIDED TO GET RID OF THIS
+                                            ? 
+                                                <h4><b>*Scroll down to see information on support, privacy policy, and credits</b></h4>
+                                            : 
+                                                (<div></div>)
+                                            }
                                             <h3>Description</h3> 
                                                 <h5>{project_items[this.props.current].description}
                                                 </h5>
@@ -64,7 +70,7 @@ class Project extends Component{
 
             <Row className ="proj_icons">
                 <Col xs = {4} lg ={3} className = "proj_col_2">
-                    <h2>{project_items[this.props.current].released ? "Available on" : "Will be available"}</h2>
+                    <h2>{project_items[this.props.current].released ? "Available on" : "Will be available on"}</h2>
                     <h2>
                     {
                         project_items[this.props.current].icons.map((x,idx) => {
@@ -125,6 +131,61 @@ class Project extends Component{
                                     </ul>
                             </Card.Body>
                     </Card>
+
+                    <br/>
+
+
+                    {project_items[this.props.current].name == "N/A" //DECIDED TO GET RID OF THIS
+                    ? 
+                        (
+                            <div>
+                                <Card className="proj_card">
+                                    <Card.Body>
+                                        
+                                        <h3>Support</h3> 
+                                            <ul>
+                                            <li>
+                                                <h5>Please email junebugdeveloper@gmail.com to report any issues!</h5>
+                                            </li>
+                                            </ul>
+                                    </Card.Body>
+                                </Card>
+
+                                <br/>
+
+                                <Card className="proj_card">
+                                <Card.Body>
+                                    
+                                    <h3>Privacy Policy</h3> 
+
+                                            <Button variant = "primary" href={"https://www.iubenda.com/privacy-policy/41647457"} >
+                                               Go to Privacy Policy
+                                            </Button>
+                                            <h5></h5>
+
+                                </Card.Body>
+                                </Card> 
+                                
+                                <br/>
+
+                                <Card className="proj_card">
+                                <Card.Body>
+                                    
+                                    <h3>Credits</h3> 
+
+                                        <h5>A VERY special thank you to our early supporters!</h5>
+
+                                </Card.Body>
+                                </Card>
+                            </div>
+                        ) 
+                    : (
+                        <div></div>
+                        )
+                    }
+
+                    
+
 
                 </Col>
             </Row>

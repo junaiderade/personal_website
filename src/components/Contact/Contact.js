@@ -14,13 +14,23 @@ class Contact extends Component{
                 <h1 className = "contact_h1">Contact Information</h1>
                 <br/>
 
+
+
+
+
+
+
+
+
+
+
                 <ListGroup className="contact_list">
                     <ListGroup.Item>
-                    Feel free to get in touch at any of the below.
+                    Having an issue or want to give feedback on Tiny Turtle? Want to know more about Junebug Developer? Feel free to get in touch with Junaid, the owner, at any of below.
                     </ListGroup.Item>
                 </ListGroup>
                         <h3 className = "contact_h3">
-                            <a href="mailto:junaid98m@gmail.com"><i className="fas fa-envelope"></i></a>
+                            <a href="mailto:junebugdev@gmail.com"><i className="fas fa-envelope"></i></a>
                             <a href="https://www.linkedin.com/in/junaid-mohamed-939ba8154/"><i className="fab fa-linkedin"></i></a>
                             <a href="https://twitter.com/junaiderade"><i className="fab fa-twitter"></i></a>
                             <a href="https://github.com/junaiderade"><i className="fab fa-github"></i></a> 

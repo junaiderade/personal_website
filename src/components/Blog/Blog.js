@@ -16,7 +16,7 @@ class Blog extends Component{
                 <br/>
                 <ListGroup className="blog_list">
                     <ListGroup.Item>
-                    Any articles I write will be featured here. Hoping the articles help you get to know me better!
+                    Any articles we write will be featured here. Hoping the articles help you get to know me better!
                     </ListGroup.Item>
                 </ListGroup>
                 <br/>
