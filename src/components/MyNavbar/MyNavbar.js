@@ -23,7 +23,7 @@ class MyNavbar extends Component{
                         <Nav className="me-auto">
                             <Link className = "nav_link" to="/home">Home</Link>
                             <Link className = "nav_link" to="/projects">Projects</Link>
-                            <Link className = "nav_link" to="/workexperience">Work Experience</Link>
+                            {/* <Link className = "nav_link" to="/workexperience">Work Experience</Link> */}
                             <Link className = "nav_link" to="/blog">Blog</Link>
                             <Link className = "nav_link" to="/contact">Contact</Link>
                         </Nav>
