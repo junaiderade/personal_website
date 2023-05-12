@@ -205,7 +205,7 @@ export const project_items = [
 
         released: false,
 
-        release_notes: "Development in progress",
+        release_notes: "In progress",
 
         icons: 
         [
