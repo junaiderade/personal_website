@@ -7,7 +7,7 @@ export const companies = [
     {
         name: "Deloitte",
         image: deloitte_logo,
-        position: "Consulting Analyst",
+        position: "Consultant",
         time_period: "(8/2020-Present)",
         desc: "Deloitte is the largest technology consulting firm in the US and ranked #7 on the 2021 LinkedIn Top Companies Listing."
     },

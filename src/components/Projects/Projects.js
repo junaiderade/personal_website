@@ -8,6 +8,8 @@ import cal_calc from "../../Images/Project_Pics/Calorie_Calculator/UI.png"
 import yelpcamp from "../../Images/YelpCamp.png"
 import you_are_here from "../../Images/You_Are_Here.jpg"
 import {Link} from 'react-router-dom'
+import gng_multi from "../../Images/Project_Pics/Goals_And_Gains/gngMulti.png"
+
 
 
 class Projects extends Component{
@@ -22,6 +24,22 @@ class Projects extends Component{
                 <Row>
                     <Col md = {12} lg = {6}>
                         <br/>
+                        <Link to='/projects/goalsandgains' className = 'link-tag' style={{ textDecoration: 'none' }}>
+                            <Card className = "hoverable">
+                                <Card.Header><h2>Goals and Gains</h2></Card.Header>
+                                <Card.Img className = "card-image" variant="top" src={gng_multi} />
+                                <Card.Body>
+                                    <Card.Title>A Social Network for Good</Card.Title>
+                                    <Card.Text>This app will be a social network for personal development! It is a work in progress.
+                                    </Card.Text>
+                                </Card.Body>
+                                <Card.Footer>Development in Progress</Card.Footer>
+                            </Card>
+                        </Link>
+                    </Col>
+
+                    <Col md = {12} lg = {6}>
+                        <br/>
                         <Link to='/projects/tinyturtle' className = 'link-tag' style={{ textDecoration: 'none' }}>
                             <Card className = "hoverable">
                                 <Card.Header><h2>Tiny Turtle</h2></Card.Header>
@@ -31,10 +49,15 @@ class Projects extends Component{
                                     <Card.Text>Play as a turtle avoiding pollution in this innovative ios/android app!
                                     </Card.Text>
                                 </Card.Body>
-                                <Card.Footer>Coming to the App Store and Google Play Store 2022</Card.Footer>
+                                <Card.Footer>Released on the App Store</Card.Footer>
                             </Card>
                         </Link>
                     </Col>
+
+                </Row>
+
+                <Row>
+
 
                     <Col md = {12} lg = {6}>
                         <br/>
@@ -52,6 +75,22 @@ class Projects extends Component{
                             </Card>
                         </Link>
                     </Col>
+                    <Col md = {12} lg = {6}>
+                        <br/>
+                        <Link to='/projects/yelpcamp' className = 'link-tag' style={{ textDecoration: 'none' }}>
+                            <Card className = "hoverable">
+                                <Card.Header><h2>YelpCamp</h2></Card.Header>
+                                <Card.Img className = "card-image" variant="top" src={yelpcamp} />
+                                <Card.Body>
+                                    <Card.Title>Camping + Internet</Card.Title>
+                                    <Card.Text>Make an account and tell the world about your favorite places to camp!
+                                    </Card.Text>
+                                </Card.Body>
+                                <Card.Footer>Released to the Web March 2019</Card.Footer>
+                            </Card>
+                        </Link>
+                    </Col>
+
                 </Row>
 
                 <Row>
@@ -71,24 +110,6 @@ class Projects extends Component{
                         </Link>
                     </Col>
 
-                    <Col md = {12} lg = {6}>
-                        <br/>
-                        <Link to='/projects/yelpcamp' className = 'link-tag' style={{ textDecoration: 'none' }}>
-                            <Card className = "hoverable">
-                                <Card.Header><h2>YelpCamp</h2></Card.Header>
-                                <Card.Img className = "card-image" variant="top" src={yelpcamp} />
-                                <Card.Body>
-                                    <Card.Title>Camping + Internet</Card.Title>
-                                    <Card.Text>Make an account and tell the world about your favorite places to camp!
-                                    </Card.Text>
-                                </Card.Body>
-                                <Card.Footer>Released to the Web March 2019</Card.Footer>
-                            </Card>
-                        </Link>
-                    </Col>
-                </Row>
-
-                <Row>
                     <Col md = {12} lg = {6}>
                     <br/>
                     <Link to='home' className = 'link-tag' style={{ textDecoration: 'none' }}>

@@ -4,7 +4,7 @@ import MyNavbar from './components/MyNavbar/MyNavbar';
 import Home from './components/Home/Home';
 import Projects from './components/Projects/Projects';
 import HundredDaysOfCode from './components/Projects/HundredDaysOfCode';
-import WorkExperience from './components/WorkExperience/WorkExperience';
+import OnlineResume from './components/OnlineResume/OnlineResume';
 import Project from './components/Projects/Project';
 import Contact from './components/Contact/Contact';
 import Blog from './components/Blog/Blog';
@@ -65,8 +65,12 @@ function App() {
             <HundredDaysOfCode></HundredDaysOfCode>
           </Route>
 
-          <Route exact path="/workexperience">
-            <WorkExperience></WorkExperience>
+          <Route exact path="/projects/goalsandgains">
+            <Project current="3"></Project>
+          </Route>
+
+          <Route exact path="/onlineresume">
+            <OnlineResume></OnlineResume>
           </Route>
 
       </Switch>

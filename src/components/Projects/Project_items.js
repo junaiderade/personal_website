@@ -1,3 +1,8 @@
+//Goals and Gains
+import gng_bg from "../../Images/Project_Pics/Goals_And_Gains/gngBackground.jpg"
+import gng_multi from "../../Images/Project_Pics/Goals_And_Gains/gngMulti.png"
+
+
 //Tiny Turtle
 import tt_gameplay from "../../Images/Project_Pics/Tiny_Turtle/Gameplay.png";
 import tt_store from "../../Images/Project_Pics/Tiny_Turtle/Store.png";
@@ -5,7 +10,6 @@ import tt_ads from "../../Images/Project_Pics/Tiny_Turtle/Ads.png";
 import tt_bg from "../../Images/Project_Pics/Tiny_Turtle/Ocean_Background.jpg";
 import tt_achievements from "../../Images/Project_Pics/Tiny_Turtle/Achievements.png";
 import tt_leaderboards from "../../Images/Project_Pics/Tiny_Turtle/Leaderboards.png";
-
 
 //Angular Calorie Caculator
 import a_ui from "../../Images/Project_Pics/Calorie_Calculator/UI.png";
@@ -23,7 +27,8 @@ import yc_bg from "../../Images/Project_Pics/YelpCamp/Background.jpg";
 
 
 export const project_items = [
-
+//YelpCamp
+    
     //Tiny Turtle
     {
         name: "Tiny Turtle",
@@ -55,17 +60,16 @@ export const project_items = [
 
         ],
 
-        released: false,
+        released: true,
 
-        release_notes: "Releasing 2022",
+        release_notes: "Released April 2022",
 
         icons: 
         [
             "fab fa-app-store",
-            "fab fa-google-play"
         ],
 
-        link : "Link not yet available",
+        link : "https://apps.apple.com/ml/app/tiny-turtle/id1524053527",
 
         description: "A free runner mobile game where you play as a turtle dodging trash in the ocean! I made this game as a fun way to raise awareness about protecting aquatic wildlife.",
 
@@ -83,7 +87,7 @@ export const project_items = [
 
         technical: 
         [
-            "Coded in C#","Uses Unity Game Engine","Drawn in Procreate on iPad", "Uses Xcode for iOS build", "Uses Android Studio for Android Build.",
+            "Coded in C#","Uses Unity Game Engine","Drawn in Procreate on iPad", "Uses Xcode for iOS build",
             "Uses Unity Ads for Advertising"
         ]
 
@@ -182,6 +186,47 @@ export const project_items = [
             "Backend coded in ExpressJS",
             "UI in HTML, CSS, JS",
             "Deployed using Heroku"
+        ]
+
+    },
+    {
+        name: "Goals and Gains",
+
+        background: gng_bg,
+
+        carousel: 
+        [
+
+            {
+                image: gng_multi,
+                caption: "Premilinary Screenshots!"
+            }
+        ],
+
+        released: false,
+
+        release_notes: "Development in progress",
+
+        icons: 
+        [
+            "fab fa-app-store",
+            "fab fa-google-play"
+        ],
+
+        link : "https://desolate-everglades-56309.herokuapp.com/campgrounds",
+
+        description: "This app will be a social network for personal development! It is a work in progress.",
+
+        features: 
+        [
+            "TBD"
+        ],
+
+        technical: 
+        [
+            "Front-end built in React Native",
+            "Back-end build in Express on NodeJS",
+            "Will be deployed using AWS: EC2, RDS (for database), and S3 (for photo storage)"
         ]
 
     }
