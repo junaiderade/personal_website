@@ -110,21 +110,6 @@ class Projects extends Component{
                         </Link>
                     </Col>
 
-                    <Col md = {12} lg = {6}>
-                    <br/>
-                    <Link to='home' className = 'link-tag' style={{ textDecoration: 'none' }}>
-                        <Card className = "hoverable">
-                            <Card.Header><h2>Personal Website</h2></Card.Header>
-                            <Card.Img className = "card-image" variant="top" src={you_are_here} />
-                            <Card.Body>
-                                <Card.Title>More than Just a Coder</Card.Title>
-                                <Card.Text>The website you are looking at right now
-                                </Card.Text>
-                            </Card.Body>
-                            <Card.Footer>Released to the Web November 2021</Card.Footer>
-                        </Card>
-                    </Link>
-                    </Col>
                 </Row>
                 <br/>
                 <br/>
