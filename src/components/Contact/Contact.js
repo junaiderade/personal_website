@@ -26,7 +26,7 @@ class Contact extends Component{
 
                 <ListGroup className="contact_list">
                     <ListGroup.Item>
-                    Having an issue or want to give feedback on Tiny Turtle? Want to know more about Junebug Developer? Feel free to get in touch with Junaid, the owner, at any of below.
+                    Find me at any of the below links!
                     </ListGroup.Item>
                 </ListGroup>
                         <h3 className = "contact_h3">
