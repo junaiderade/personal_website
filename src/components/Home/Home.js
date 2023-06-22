@@ -39,6 +39,7 @@ class Home extends Component{
                                     <h3 className="home_h3">Welcome! Here's a Little About Me!</h3> 
                                     <ul className ="home_ul">
                                             <li>I'm a software engineer with exprience in full-stack development, machine learning, and project management.</li>
+                                            <li>I'm a published mobile app developer (head to my projects to see more)</li>
                                             <li>I'm a part-time student at Georgia Tech in the Master's of Computer Science program and pursuing a specializaton in machine learning.</li>
 
 
