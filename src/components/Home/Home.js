@@ -26,9 +26,9 @@ class Home extends Component{
                         <h3>
                             <a href="mailto:junaid98m@gmail.com"><i className="fas fa-envelope"></i></a>
                             <a href="https://www.linkedin.com/in/junaid-mohamed-939ba8154/"><i className="fab fa-linkedin"></i></a>
-                            <a href="https://twitter.com/junaiderade"><i className="fab fa-twitter"></i></a>
+                            {/* <a href="https://twitter.com/junaiderade"><i className="fab fa-twitter"></i></a> */}
                             <a href="https://github.com/junaiderade"><i className="fab fa-github"></i></a> 
-                            <a href="https://www.instagram.com/junaiderade/"><i className="fab fa-instagram"></i></a>
+                            {/* <a href="https://www.instagram.com/junaiderade/"><i className="fab fa-instagram"></i></a> */}
                         </h3>
                     </Col>
                     <Col md = {12} lg = {6} className="right-col">

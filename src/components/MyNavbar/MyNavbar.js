@@ -24,7 +24,6 @@ class MyNavbar extends Component{
                             <Link className = "nav_link" to="/home">Home</Link>
                             <Link className = "nav_link" to="/projects">Projects</Link>
                             <Link className = "nav_link" to="/onlineresume">Online Resume</Link>
-                            <Link className = "nav_link" to="/blog">Blog</Link>
                             <Link className = "nav_link" to="/contact">Contact</Link>
                         </Nav>
                         </Navbar.Collapse>
